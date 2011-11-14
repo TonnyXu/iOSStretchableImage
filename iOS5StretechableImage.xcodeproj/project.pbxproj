@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E116D7001470D0AC0061D2C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E116D6FF1470D0AC0061D2C8 /* UIKit.framework */; };
+		E116D7021470D0AC0061D2C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E116D7011470D0AC0061D2C8 /* Foundation.framework */; };
+		E116D7041470D0AC0061D2C8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E116D7031470D0AC0061D2C8 /* CoreGraphics.framework */; };
+		E116D70A1470D0AC0061D2C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E116D7081470D0AC0061D2C8 /* InfoPlist.strings */; };
+		E116D70C1470D0AC0061D2C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E116D70B1470D0AC0061D2C8 /* main.m */; };
+		E116D7101470D0AC0061D2C8 /* TXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E116D70F1470D0AC0061D2C8 /* TXAppDelegate.m */; };
+		E116D7131470D0AC0061D2C8 /* TXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E116D7121470D0AC0061D2C8 /* TXViewController.m */; };
+		E116D7161470D0AC0061D2C8 /* TXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E116D7141470D0AC0061D2C8 /* TXViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E116D6FB1470D0AC0061D2C8 /* iOS5StretechableImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS5StretechableImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E116D6FF1470D0AC0061D2C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E116D7011470D0AC0061D2C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E116D7031470D0AC0061D2C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E116D7071470D0AC0061D2C8 /* iOS5StretechableImage-Info.plist */ = {isa = PBXFileReference; path = "iOS5StretechableImage-Info.plist"; sourceTree = "<group>"; };
+		E116D7091470D0AC0061D2C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E116D70B1470D0AC0061D2C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E116D70D1470D0AC0061D2C8 /* iOS5StretechableImage-Prefix.pch */ = {isa = PBXFileReference; path = "iOS5StretechableImage-Prefix.pch"; sourceTree = "<group>"; };
+		E116D70E1470D0AC0061D2C8 /* TXAppDelegate.h */ = {isa = PBXFileReference; path = TXAppDelegate.h; sourceTree = "<group>"; };
+		E116D70F1470D0AC0061D2C8 /* TXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXAppDelegate.m; sourceTree = "<group>"; };
+		E116D7111470D0AC0061D2C8 /* TXViewController.h */ = {isa = PBXFileReference; path = TXViewController.h; sourceTree = "<group>"; };
+		E116D7121470D0AC0061D2C8 /* TXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXViewController.m; sourceTree = "<group>"; };
+		E116D7151470D0AC0061D2C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TXViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E116D6F81470D0AC0061D2C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E116D7001470D0AC0061D2C8 /* UIKit.framework in Frameworks */,
+				E116D7021470D0AC0061D2C8 /* Foundation.framework in Frameworks */,
+				E116D7041470D0AC0061D2C8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E116D6F01470D0AC0061D2C8 = {
+			isa = PBXGroup;
+			children = (
+				E116D7051470D0AC0061D2C8 /* iOS5StretechableImage */,
+				E116D6FE1470D0AC0061D2C8 /* Frameworks */,
+				E116D6FC1470D0AC0061D2C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E116D6FC1470D0AC0061D2C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E116D6FB1470D0AC0061D2C8 /* iOS5StretechableImage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E116D6FE1470D0AC0061D2C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E116D6FF1470D0AC0061D2C8 /* UIKit.framework */,
+				E116D7011470D0AC0061D2C8 /* Foundation.framework */,
+				E116D7031470D0AC0061D2C8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E116D7051470D0AC0061D2C8 /* iOS5StretechableImage */ = {
+			isa = PBXGroup;
+			children = (
+				E116D70E1470D0AC0061D2C8 /* TXAppDelegate.h */,
+				E116D70F1470D0AC0061D2C8 /* TXAppDelegate.m */,
+				E116D7111470D0AC0061D2C8 /* TXViewController.h */,
+				E116D7121470D0AC0061D2C8 /* TXViewController.m */,
+				E116D7141470D0AC0061D2C8 /* TXViewController.xib */,
+				E116D7061470D0AC0061D2C8 /* Supporting Files */,
+			);
+			path = iOS5StretechableImage;
+			sourceTree = "<group>";
+		};
+		E116D7061470D0AC0061D2C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E116D7071470D0AC0061D2C8 /* iOS5StretechableImage-Info.plist */,
+				E116D7081470D0AC0061D2C8 /* InfoPlist.strings */,
+				E116D70B1470D0AC0061D2C8 /* main.m */,
+				E116D70D1470D0AC0061D2C8 /* iOS5StretechableImage-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E116D6FA1470D0AC0061D2C8 /* iOS5StretechableImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E116D7191470D0AC0061D2C8 /* Build configuration list for PBXNativeTarget "iOS5StretechableImage" */;
+			buildPhases = (
+				E116D6F71470D0AC0061D2C8 /* Sources */,
+				E116D6F81470D0AC0061D2C8 /* Frameworks */,
+				E116D6F91470D0AC0061D2C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS5StretechableImage;
+			productName = iOS5StretechableImage;
+			productReference = E116D6FB1470D0AC0061D2C8 /* iOS5StretechableImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E116D6F21470D0AC0061D2C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "genesix Inc.";
+			};
+			buildConfigurationList = E116D6F51470D0AC0061D2C8 /* Build configuration list for PBXProject "iOS5StretechableImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E116D6F01470D0AC0061D2C8;
+			productRefGroup = E116D6FC1470D0AC0061D2C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E116D6FA1470D0AC0061D2C8 /* iOS5StretechableImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E116D6F91470D0AC0061D2C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E116D70A1470D0AC0061D2C8 /* InfoPlist.strings in Resources */,
+				E116D7161470D0AC0061D2C8 /* TXViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E116D6F71470D0AC0061D2C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E116D70C1470D0AC0061D2C8 /* main.m in Sources */,
+				E116D7101470D0AC0061D2C8 /* TXAppDelegate.m in Sources */,
+				E116D7131470D0AC0061D2C8 /* TXViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E116D7081470D0AC0061D2C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E116D7091470D0AC0061D2C8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E116D7141470D0AC0061D2C8 /* TXViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E116D7151470D0AC0061D2C8 /* en */,
+			);
+			name = TXViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E116D7171470D0AC0061D2C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E116D7181470D0AC0061D2C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E116D71A1470D0AC0061D2C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS5StretechableImage/iOS5StretechableImage-Prefix.pch";
+				INFOPLIST_FILE = "iOS5StretechableImage/iOS5StretechableImage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E116D71B1470D0AC0061D2C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS5StretechableImage/iOS5StretechableImage-Prefix.pch";
+				INFOPLIST_FILE = "iOS5StretechableImage/iOS5StretechableImage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E116D6F51470D0AC0061D2C8 /* Build configuration list for PBXProject "iOS5StretechableImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E116D7171470D0AC0061D2C8 /* Debug */,
+				E116D7181470D0AC0061D2C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E116D7191470D0AC0061D2C8 /* Build configuration list for PBXNativeTarget "iOS5StretechableImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E116D71A1470D0AC0061D2C8 /* Debug */,
+				E116D71B1470D0AC0061D2C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E116D6F21470D0AC0061D2C8 /* Project object */;
+}
