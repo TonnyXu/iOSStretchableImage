@@ -15,6 +15,9 @@
 		E116D7101470D0AC0061D2C8 /* TXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E116D70F1470D0AC0061D2C8 /* TXAppDelegate.m */; };
 		E116D7131470D0AC0061D2C8 /* TXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E116D7121470D0AC0061D2C8 /* TXViewController.m */; };
 		E116D7161470D0AC0061D2C8 /* TXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E116D7141470D0AC0061D2C8 /* TXViewController.xib */; };
+		E116D71E1470D10B0061D2C8 /* SplashAD@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E116D71C1470D10B0061D2C8 /* SplashAD@2x.png */; };
+		E116D71F1470D10B0061D2C8 /* SplashAD.png in Resources */ = {isa = PBXBuildFile; fileRef = E116D71D1470D10B0061D2C8 /* SplashAD.png */; };
+		E116D7211470D5210061D2C8 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E116D7201470D5210061D2C8 /* blueButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,18 @@
 		E116D6FF1470D0AC0061D2C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E116D7011470D0AC0061D2C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E116D7031470D0AC0061D2C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E116D7071470D0AC0061D2C8 /* iOS5StretechableImage-Info.plist */ = {isa = PBXFileReference; path = "iOS5StretechableImage-Info.plist"; sourceTree = "<group>"; };
+		E116D7071470D0AC0061D2C8 /* iOS5StretechableImage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS5StretechableImage-Info.plist"; sourceTree = "<group>"; };
 		E116D7091470D0AC0061D2C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E116D70B1470D0AC0061D2C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E116D70D1470D0AC0061D2C8 /* iOS5StretechableImage-Prefix.pch */ = {isa = PBXFileReference; path = "iOS5StretechableImage-Prefix.pch"; sourceTree = "<group>"; };
-		E116D70E1470D0AC0061D2C8 /* TXAppDelegate.h */ = {isa = PBXFileReference; path = TXAppDelegate.h; sourceTree = "<group>"; };
+		E116D70D1470D0AC0061D2C8 /* iOS5StretechableImage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS5StretechableImage-Prefix.pch"; sourceTree = "<group>"; };
+		E116D70E1470D0AC0061D2C8 /* TXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXAppDelegate.h; sourceTree = "<group>"; };
 		E116D70F1470D0AC0061D2C8 /* TXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXAppDelegate.m; sourceTree = "<group>"; };
-		E116D7111470D0AC0061D2C8 /* TXViewController.h */ = {isa = PBXFileReference; path = TXViewController.h; sourceTree = "<group>"; };
+		E116D7111470D0AC0061D2C8 /* TXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXViewController.h; sourceTree = "<group>"; };
 		E116D7121470D0AC0061D2C8 /* TXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXViewController.m; sourceTree = "<group>"; };
 		E116D7151470D0AC0061D2C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TXViewController.xib; sourceTree = "<group>"; };
+		E116D71C1470D10B0061D2C8 /* SplashAD@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SplashAD@2x.png"; path = "iOS5StretechableImage/SplashAD@2x.png"; sourceTree = "<group>"; };
+		E116D71D1470D10B0061D2C8 /* SplashAD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SplashAD.png; path = iOS5StretechableImage/SplashAD.png; sourceTree = "<group>"; };
+		E116D7201470D5210061D2C8 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueButton.png; path = iOS5StretechableImage/blueButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +56,9 @@
 		E116D6F01470D0AC0061D2C8 = {
 			isa = PBXGroup;
 			children = (
+				E116D7201470D5210061D2C8 /* blueButton.png */,
+				E116D71C1470D10B0061D2C8 /* SplashAD@2x.png */,
+				E116D71D1470D10B0061D2C8 /* SplashAD.png */,
 				E116D7051470D0AC0061D2C8 /* iOS5StretechableImage */,
 				E116D6FE1470D0AC0061D2C8 /* Frameworks */,
 				E116D6FC1470D0AC0061D2C8 /* Products */,
@@ -151,6 +160,9 @@
 			files = (
 				E116D70A1470D0AC0061D2C8 /* InfoPlist.strings in Resources */,
 				E116D7161470D0AC0061D2C8 /* TXViewController.xib in Resources */,
+				E116D71E1470D10B0061D2C8 /* SplashAD@2x.png in Resources */,
+				E116D71F1470D10B0061D2C8 /* SplashAD.png in Resources */,
+				E116D7211470D5210061D2C8 /* blueButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

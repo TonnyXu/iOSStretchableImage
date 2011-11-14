@@ -9,6 +9,9 @@
 #import "TXViewController.h"
 
 @implementation TXViewController
+@synthesize imageView;
+@synthesize hSlider;
+@synthesize vSlider;
 
 - (void)didReceiveMemoryWarning
 {
@@ -22,10 +25,17 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+  int i = arc4random() % 2;
+  UIImage *image = (i == 0)?[UIImage imageNamed:@"SplashAD.png"]:[UIImage imageNamed:@"blueButton"];
+  UIImage *resizableImage = [image resizableImageWithCapInsets:UIEdgeInsetsMake(10, 10, 10, 10)];
+  self.imageView.image = resizableImage;
 }
 
 - (void)viewDidUnload
 {
+  [self setImageView:nil];
+  [self setHSlider:nil];
+  [self setVSlider:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -57,4 +67,19 @@
   return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)horizontalChanged:(id)sender {
+  // Origin size: 140x200
+  self.imageView.frame = CGRectMake(10, 10, 140*(1.0+(vSlider.value - 0.5)), 200*(1.0 + (hSlider.value - 0.5)));
+  
+}
+
+- (IBAction)veticalChanged:(id)sender {
+  self.imageView.frame = CGRectMake(10, 10, 140*(1.0+(vSlider.value - 0.5)), 200*(1.0 + (hSlider.value - 0.5)));
+}
+- (void)dealloc {
+  [imageView release];
+  [hSlider release];
+  [vSlider release];
+  [super dealloc];
+}
 @end

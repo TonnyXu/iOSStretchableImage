@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface TXViewController : UIViewController
+@property (retain, nonatomic) IBOutlet UIImageView *imageView;
+@property (retain, nonatomic) IBOutlet UISlider *hSlider;
+@property (retain, nonatomic) IBOutlet UISlider *vSlider;
 
+- (IBAction)horizontalChanged:(id)sender;
+- (IBAction)veticalChanged:(id)sender;
 @end
